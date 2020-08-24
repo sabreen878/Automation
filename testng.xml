@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Task">
+  <test thread-count="5" name="TaskTest">
+    <classes>
+      <class name="Tests.AlertTests"/>
+      <class name="Tests.DragAndDropTest"/>
+      <class name="Tests.DropDownTests"/>
+      <class name="Tests.FileUploadTest"/>
+      <class name="Tests.CheckBoxTest"/>
+      <class name="Tests.MultipleWindowsTests"/>
+      <class name="Tests.ForgetPasswordTests"/>
+      <class name="Tests.FileDownloadTests"/>
+      <class name="Tests.RedirectTests"/>
+      <class name="Tests.LoginTest"/>
+    </classes>
+  </test> <!-- TaskTest -->
+</suite> <!-- Task -->
